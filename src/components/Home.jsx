@@ -8,6 +8,8 @@ import GoblinContainer from './GoblinContainer'
 export default function Home() {
   useEffect(() => {
     let btn = document.getElementsByClassName("home_btn_box")
+    let btn2 = document.getElementsByClassName("home_btn_r")
+    btn2[0].className = "nada"
     btn[0].className = "nada"
   },[])
   return (

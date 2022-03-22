@@ -46,6 +46,7 @@ export default function Header(props) {
         </button>
       </div>
       <h1 onClick={actual}>{titulo}</h1>
+      <div onClick={redirect} className="home_btn_r">Home</div>
     </header>
   )
 }

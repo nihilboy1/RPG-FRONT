@@ -3,12 +3,13 @@
 * {
   margin: 0;
   padding: 0;
+  border: 1px solid wheat;
 }
 
 body,
 #root {
-  background-image: url("../src/images/outros/back.jpg");
-  background-size: cover;
+
+  background-position: top left;
   font-family: 'Arvo', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -24,7 +25,14 @@ body,
   align-items: center;
 }
 
+body {
+  background-image: url('../src/images/outros/back.jpg');
+  background-size: cover;
+  background-position: top left;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
