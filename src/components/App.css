@@ -233,7 +233,8 @@ header {
 
 @media only screen and (max-width: 400px) {
   header {
-    margin-bottom: 20px;
+    height: 20%;
+    margin-bottom: 30px;
   }
   .home_btn_r {
     margin-right: 5px;
