@@ -20,14 +20,18 @@
 h2 {
   margin-bottom: 5px;
 }
+
 .texto {
-  border: none;
-}
+  border: none ;
+} 
+
 iframe {
   align-self: center;
   width: 800px;
   min-height: 520px ;
 }
+  
+
 
 .menu_nav,
 .menu_ul {
@@ -66,6 +70,7 @@ header {
   height: 200px;
   border-radius: 5px;
   cursor: pointer;
+  transition: width 600ms, height 600ms, margin 1s;
 }
 
 .arquivo_box:hover {
@@ -92,11 +97,13 @@ header {
   margin-top: 2px;
   opacity: 0.6;
   border-radius: 10px;
+  transition: opacity 400ms, color 400ms, font-size 400ms;
 }
 
 .home_btn_box:hover {
   opacity: 1;
   font-size: 11px;
+  color: white;
 }
 
 .link {
@@ -118,6 +125,8 @@ header {
   color: white;
   padding-left: 15px;
   text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.658);
+  transition-property: padding,;
+  transition-duration: 400ms;
 }
 
 .title > h1 {
@@ -138,6 +147,7 @@ header {
   justify-content: space-around;
   min-height: 550px;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .home_btn_r {
@@ -145,7 +155,6 @@ header {
   width: 150px;
   text-align: center;
   cursor: pointer;
-  padding: 2px 10px;
   border: none;
   font-size: 10px;
   color: rgb(255, 255, 255);
@@ -154,16 +163,17 @@ header {
   margin-top: 2px;
   border-radius: 10px;
 }
-
+.img_container {
+  width: 50%;
+  height: 50%;
+  min-width: 200px;
+}
 #goblin {
-  width: 400px;
+  width: 100%;
 }
 
 
 @media only screen and  (max-width: 1080px){
-  .img_container {
-    display: none;
-  }
   .margintop {
     margin-top: 70px;
   }
@@ -181,8 +191,8 @@ header {
   }
  
   .title > h1 {
-    font-size: 30px;
-    width: auto;
+    font-size: 20px;
+    width: 100%;
   }
 
   .arquivo_box:hover {
@@ -192,11 +202,13 @@ header {
   .link > li {
     align-self: center;
     width: 100%;
-    margin-left: -40px;
+    margin-left: -20px;
+
   }
 
   .home_btn_r {
-    display: block
+    display: block;
+    padding: 10px
   }
 
   .app, #root {
