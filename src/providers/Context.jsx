@@ -3,7 +3,10 @@ import ascencaodetiamat from '../images/capas/riseoftiamat.PNG'
 import avernus from '../images/capas/avernus.PNG'
 import tempestade from '../images/capas/tempestade.PNG'
 import lostmine from '../images/capas/lostmine.PNG'
-import icespire from "../images/capas/icespire.PNG"
+import icespire from '../images/capas/icespire.PNG'
+import reliquia from '../images/capas/reliquia.PNG'
+import assassinatoembaldurs from '../images/capas/assassinatoembaldurs.jpg'
+import icewind from "../images/capas/icewind.PNG"
 
 export const Context = React.createContext({})
 
@@ -31,7 +34,25 @@ export const ContextProvider = props => {
       5: [
         'https://drive.google.com/file/d/1rNxxZ1pX1Y6gLWjh_49Ps2TaudMUBytF/view?usp=sharing',
         icespire
-      ]
+      ],
+      6: [
+        'https://drive.google.com/file/d/1IBA_8QnkAVVhU3LCSYjkafALiXUjn8jn/view?usp=sharing',
+        reliquia
+      ],
+      7: [
+        'https://drive.google.com/file/d/1Hjb7B0kVrEvUgCJvAhZjUg2ABGblLpRf/view?usp=sharing',
+        assassinatoembaldurs
+      ],
+      8: [
+        "https://drive.google.com/file/d/1u9_SFgRvziG0UXeEw42jGV8WidqEgd3_/view?usp=sharing",
+        icewind
+      ],
+      9: ["", ""],
+      10: ["", ""],
+      11: ["", ""],
+      12: ["", ""],
+      13: ["", ""]
+
     })
   }, [])
 

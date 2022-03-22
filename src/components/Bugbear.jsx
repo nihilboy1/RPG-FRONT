@@ -10,7 +10,7 @@ const Bugbear = () => {
   <Header/>
   <ContainerCenter>
     <Menu>
-    <ListItem>DND 5E</ListItem>
+    <ListItem>Aventuras</ListItem>
     </Menu>
     <GoblinContainer/>
   </ContainerCenter>
