@@ -18,7 +18,7 @@ export default function Header(props) {
         setTitulo('Repositório Goblinóide')
         break
       case '/historia':
-        setTitulo('História Geral')
+        setTitulo('Universo')
         break
       case '/diarios':
         setTitulo('Diarios de Campanha')
@@ -27,7 +27,7 @@ export default function Header(props) {
         setTitulo('Regras da Casa')
         break
       case '/npcs':
-        setTitulo('Aventureiros e Npcs')
+        setTitulo('Aventureiros')
         break
       case '/bugbear':
         setTitulo('O Bugbear Infrator')

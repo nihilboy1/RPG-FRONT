@@ -17,10 +17,10 @@ export default function Home() {
       <Header/>
       <ContainerCenter>
         <Menu>
-          <ListItem path="historia">História Geral</ListItem>
+          <ListItem path="historia">Universo</ListItem>
           <ListItem path="diarios">Diários de Campanha</ListItem>
           <ListItem path="regras">Regras da Casa</ListItem>
-          <ListItem path="npcs">Aventureiros e NPC's</ListItem>
+          <ListItem path="npcs">Aventureiros</ListItem>
           <ListItem path="bugbear">O Bugbear Infrator</ListItem>
         </Menu>
         <GoblinContainer/>
