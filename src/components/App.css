@@ -1,15 +1,13 @@
-.app,
-#root {
+.app, #root {
   border-radius: 10px;
-  width: 95%;
+  width: 90%;
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.233);
+  background-color: rgba(0, 0, 0, 0.151);
 }
 
 #root {
   border-radius: 0;
-  width: 100%;
   margin: 0px -100px 0px -100px;
 }
 .nada {
@@ -42,28 +40,25 @@ iframe {
 
 header {
   display: flex;
-  padding-top: 10px;
+  align-items: center;
+  padding: 5px;
   height: 50px;
   display: flex;
-  align-items: center;
 }
 
 .btn_box {
-  width: 30%;
+  width: 10%;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  margin-left: 15px;
-  margin-right: -60px;
+
 }
 
 .arquivo_box {
   flex-wrap: wrap;
   margin: 15px;
   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.445);
-  width: 160px;
-  height: 200px;
+  width: 150px;
+  height: 180px;
   border-radius: 5px;
   cursor: pointer;
   transition: width 600ms, height 600ms, margin 1s;
@@ -89,11 +84,16 @@ header {
   font-size: 10px;
   color: rgba(255, 255, 255, 0.685);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
-  font-weight: 600;
-  margin-top: 2px;
+  font-weight: 600;  
   opacity: 0.6;
   border-radius: 10px;
   transition: opacity 400ms, color 400ms, font-size 400ms;
+}
+
+.home_btn_box, .title > h1 {
+  margin-top: 50px;
+  text-align: center;
+
 }
 
 .home_btn_box:hover {
@@ -115,24 +115,25 @@ header {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
   cursor: pointer;
   width: 70%;
+  transition-property: padding;
+  transition-duration: 400ms;
 }
 
 .link > li:hover {
   color: white;
   padding-left: 15px;
   text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.658);
-  transition-property: padding;
-  transition-duration: 400ms;
 }
 
 .title > h1 {
-  text-align: center;
   font-size: 40px;
   color: rgb(255, 255, 255);
   font-weight: 400;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
   width: 50%;
   cursor: pointer;
+  margin-left: 120px;
+
 }
 
 .margintop {
@@ -169,6 +170,7 @@ header {
 }
 
 @media only screen and (max-width: 1080px) {
+
   .margintop {
     margin-top: 70px;
   }
@@ -179,7 +181,10 @@ header {
   header {
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
   }
+
+
 
   .btn_box {
     display: none;
@@ -188,6 +193,8 @@ header {
   .title > h1 {
     font-size: 23px;
     width: 100%;
+    margin: 0;
+    justify-content: center;
   }
 
   .arquivo_box:hover {
@@ -215,7 +222,6 @@ header {
   }
 }
 @media only screen and (max-width: 600px) {
-
   header {
     background-color: #0d10159a;
     border-radius: 10px;
@@ -231,6 +237,24 @@ header {
 }
 
 @media only screen and (max-width: 400px) {
+  iframe {
+    margin-left: 15px;
+    width: 250px;
+  }
+
+  .app,
+  #root {
+    background-color: #0d10159a;
+  }
+
+  .img_container {
+    background-color: #0d101557;
+    border-radius: 10px;
+  }
+
+  .link > li {
+    font-size: 20px;
+  }
   header {
     height: 20%;
     margin-bottom: 30px;
